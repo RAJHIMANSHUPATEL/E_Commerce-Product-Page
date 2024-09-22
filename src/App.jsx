@@ -1,9 +1,9 @@
-import './App.css'
+import Navbar from './components/Navbar';
 
 const App = ()=> {
     return (
-      <div>
-        I am prometheus
+      <div className='app'>
+        <Navbar />
       </div>
     )
 }
